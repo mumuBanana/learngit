@@ -1,11 +1,36 @@
 hello git!!!!
 
-Copy GitHub address : https://github.com/mumuBanana/learngit.git
+GitHub address : https://github.com/mumuBanana/learngit.git
 
-1.git init 
-2.git clone https://github.com/mumuBanana/learngit.git
-3.
+1.git clone https://github.com/mumuBanana/learngit.git
+2.
 	(1)在本地新建文件: xxx.txt
-	(2)git add xxx.txt
-	(3)git commit -m '注释'
-	(4)git push origin master
+	(2)$ git add xxx.txt  //添加到暂存区
+	(3)$ git commit -m '注释'	//提交到本地分支 '注释':改动代码的详细内容
+	(4)$ git push origin master	//推送到远程仓库
+	
+	此时在远程仓库已经有了xxx.txt文件
+	
+3.下次修改代码
+	(1)$ git pull //拉取远程仓库代码
+	(2)修改代码....
+	(3)$ git commit -a -m '注释' //添加到暂存区和提交到本地分支  -a -m 连写
+	(4)$ git push origin master
+	
+	注：$ git push -f origin master // -f 强制性提交到远程仓库
+	
+4.删除文件
+	(1)git rm xxx.txt //在版本库删除文件
+	(2)git commit -m '注释' //提交本地仓库
+	(3)git push origin master //推送远程仓库
+
+其他:
+	(1)$ mkdir //创建版本库
+	(2)$ pwd   //显示当前目录
+	(3)$ git init //把目录变成Git可以管理的仓库
+	(4)$ git reset --hard HEAD^ //退回上个版本 ^ 表示退回上一个版本 ^^ 表示两个 
+	(5)$ git reset --hard commit id //退回指定的版本
+	(6)$ git status //查看状态
+	(7)$ git log //查看提交历史纪录
+	(8)$ git reflog //查看命令历史记录
+	(9)$ cat xxx.txt //查看内容
