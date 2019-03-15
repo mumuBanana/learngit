@@ -1,3 +1,11 @@
 hello git!!!!
 
 Copy GitHub address : https://github.com/mumuBanana/learngit.git
+
+1.git init 
+2.git clone https://github.com/mumuBanana/learngit.git
+3.
+	(1)在本地新建文件: xxx.txt
+	(2)git add xxx.txt
+	(3)git commit -m '注释'
+	(4)git push origin master
