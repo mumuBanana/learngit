@@ -34,3 +34,5 @@ GitHub address : https://github.com/mumuBanana/learngit.git
 	(7)$ git log //查看提交历史纪录
 	(8)$ git reflog //查看命令历史记录
 	(9)$ cat xxx.txt //查看内容
+	(10)$ git remote //列出每个远程库
+	(11)$ git remote -v //列出每个远程仓库的URL
