@@ -6,7 +6,7 @@ GitHub address : https://github.com/mumuBanana/learngit.git
 2.
 	(1)在本地新建文件: xxx.txt
 	(2)$ git add xxx.txt  //添加到暂存区
-	(3)$ git commit -m '注释'	//提交到本地分支 '注释':改动代码的详细内容
+	(3)$ git commit -m '注释'	//提交到本地仓库 '注释':改动代码的详细内容
 	(4)$ git push origin master	//推送到远程仓库
 	
 	此时在远程仓库已经有了xxx.txt文件
@@ -36,3 +36,9 @@ GitHub address : https://github.com/mumuBanana/learngit.git
 	(9)$ cat xxx.txt //查看内容
 	(10)$ git remote //列出每个远程库
 	(11)$ git remote -v //列出每个远程仓库的URL
+
+第一次创建本地仓库与远程仓库建立连接 (命令行操作【不用克隆操作】)
+$ git add xxx or xxx.txt //xxx 可以是文件和文件夹 ， 添加到暂存区
+$ git git commit -m '注释' //提交本地仓库
+$ git remote add origin + 远程仓库地址 //与远程仓库建立连接
+$ git push -u origin master //第一次把本地仓库所有内容推送到远程仓库
