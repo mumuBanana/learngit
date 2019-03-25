@@ -42,3 +42,8 @@ $ git add xxx or xxx.txt //xxx 可以是文件和文件夹 ， 添加到暂存�
 $ git git commit -m '注释' //提交本地仓库
 $ git remote add origin + 远程仓库地址 //与远程仓库建立连接
 $ git push -u origin master //第一次把本地仓库所有内容推送到远程仓库
+
+
+清除git密码和用户名 ：
+	ctrl + r ：control.exe / 用户账户 / 凭据管理器 / web凭据 || windows凭据
+
